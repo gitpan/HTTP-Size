@@ -1,4 +1,4 @@
-#$Id: 01.get_size_net.t,v 1.1.1.1 2002/06/23 16:22:51 comdog Exp $
+#$Id: 01.get_size_net.t,v 1.2 2002/09/30 07:02:58 comdog Exp $
 BEGIN { $| = 1; print "1..5\n"; }
 
 END {print "not ok 1\n" unless $loaded;}
@@ -72,7 +72,6 @@ eval {
 	
 	my @array = (
 		[ $uri->canonical,                         qw( 21879 2 ) ],
-		[ qw( http://www.perl.org/                     18601 5 ) ],
 		[ qw( http://www.perl.org/size.txt                42 0 ) ],
 		[ qw( ftp://ftp.cpan.org/pub/CPAN/ROADMAP.html  1604 1 ) ],
 		);
