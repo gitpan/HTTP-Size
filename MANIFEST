@@ -1,6 +1,8 @@
-# $Id: MANIFEST,v 1.1.1.1 2002/06/23 16:22:51 comdog Exp $
+# $Id: MANIFEST,v 1.2 2002/06/23 17:10:58 comdog Exp $
 t/00.load.t
 t/01.get_size_net.t
+t/test.html
+t/perl_ad.png
 Makefile.PL
 MANIFEST
 lib/Size.pm
