@@ -1,5 +1,18 @@
-# $Id: Makefile.PL,v 1.2 2002/06/24 01:21:30 comdog Exp $
+# $Id: Makefile.PL,v 1.4 2004/07/04 17:04:17 comdog Exp $
 use ExtUtils::MakeMaker;
+
+eval "use Test::Manifest";
+unless( $@ )
+   {
+   * ExtUtils::MM_Any::test_via_harness = sub
+	   {
+	   my($self, $perl, $tests) = @_;
+
+	   return qq|\t$perl "-MTest::Manifest" | .
+				  qq|"-e" "run_t_manifest(\$(TEST_VERBOSE), '\$(INST_LIB)', | .
+				  qq|'\$(INST_ARCHLIB)')"\n|;
+	   }
+   }
 
 WriteMakefile(
 	'NAME'	       => 'HTTP::Size',
@@ -14,4 +27,11 @@ WriteMakefile(
 	'PM'           => {
 		'lib/Size.pm'         => '$(INST_LIBDIR)/Size.pm',
 		},
+
+	'MAN3PODS'     => {
+		'lib/Size.pm' => '$(INST_MAN3DIR)/HTTP::Size.3',
+		},
+
+	clean  => { FILES    => q|HTTP-Size-*| },
+
 	);
