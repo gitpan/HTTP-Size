@@ -1,0 +1,6 @@
+# $Id: MANIFEST,v 1.1.1.1 2002/06/23 16:22:51 comdog Exp $
+t/00.load.t
+t/01.get_size_net.t
+Makefile.PL
+MANIFEST
+lib/Size.pm
