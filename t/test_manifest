@@ -1,3 +1,4 @@
+# $Id: test_manifest,v 1.2 2004/09/08 01:36:02 comdog Exp $
 compile.t
 pod.t
 get_size.net.t

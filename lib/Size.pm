@@ -1,4 +1,4 @@
-# $Id: Size.pm,v 1.4 2004/07/04 17:04:17 comdog Exp $
+# $Id: Size.pm,v 1.5 2004/09/08 01:36:02 comdog Exp $
 package HTTP::Size;
 
 =head1 NAME
@@ -60,7 +60,7 @@ use LWP::UserAgent;
 use URI;
 use HTTP::Request;
 
-$VERSION = 0.9;
+$VERSION = 0.91;
 
 my $User_agent = LWP::UserAgent->new();
 
@@ -260,7 +260,7 @@ members of the project can shepherd this module appropriately.
 
 =head1 AUTHOR
 
-brian d foy <bdfoy@cpan.org>
+brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
