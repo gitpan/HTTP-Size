@@ -1,0 +1,26 @@
+# $Id: Changes,v 1.6 2006/04/06 15:50:51 comdog Exp $
+
+0.93 - Thu Apr  6 10:50:07 2006
+	* The MANIFEST was missing the Changes file, so I've fixed that
+	so you can read this statement. 
+	* There's no need to upgrade
+
+0.92 - Tue Mar 21 13:22:08 2006
+	* I moved my personal web account to Pair.com, so I had to update some
+	of the test addresses in the test files
+	* I fixed a couple of doc nits
+	* No need to upgrade if you already have this installed
+
+0.91 - Fri Oct  8 15:48:59 2004
+* no need to upgrade - just added strictures
+
+0.91 - Tue Sep  7 20:36:20 2004
+* cleaned up distro and added README
+* no need to upgrade
+
+0.9 - Sun Jul  4 12:26:33 2004
+* get_sizes() now returns the hash reference in list context
+* get_sizes() should download javascript and style sheets, but doesn't
+* updated tests to use Test::More goodness
+
+0.04 - initial version
