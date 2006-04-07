@@ -1,4 +1,8 @@
-# $Id: Changes,v 1.6 2006/04/06 15:50:51 comdog Exp $
+# $Id: Changes,v 1.7 2006/04/07 16:04:21 comdog Exp $
+
+0.94 - Fri Apr  7 11:03:16 2006
+	* Updated the Makefile.PL for various nits
+	* No need to upgrade
 
 0.93 - Thu Apr  6 10:50:07 2006
 	* The MANIFEST was missing the Changes file, so I've fixed that
