@@ -1,4 +1,4 @@
-# $Id: Size.pm,v 1.9 2006/04/07 16:01:35 comdog Exp $
+# $Id: Size.pm,v 1.11 2006/06/08 06:43:20 comdog Exp $
 package HTTP::Size;
 use strict;
 
@@ -62,7 +62,7 @@ use LWP::UserAgent;
 use URI;
 use HTTP::Request;
 
-$VERSION = 0.94;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.11 $ =~ m/ (\d+) \. (\d+) /xg;
 
 my $User_agent = LWP::UserAgent->new();
 
