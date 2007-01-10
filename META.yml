@@ -1,13 +1,14 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         HTTP-Size
-version:      1.11
-version_from: lib/Size.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                HTTP-Size
+version:             1.12
+abstract:            ~
+license:             perl
+generated_by:        ExtUtils::MakeMaker version 6.31
+distribution_type:   module
+requires:     
     HTML::SimpleLinkExtor:         0
     HTTP::Request:                 0
     URI:                           0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2

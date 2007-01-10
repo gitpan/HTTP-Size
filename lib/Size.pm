@@ -1,4 +1,4 @@
-# $Id: Size.pm,v 1.11 2006/06/08 06:43:20 comdog Exp $
+# $Id: Size.pm,v 1.12 2007/01/10 04:25:33 comdog Exp $
 package HTTP::Size;
 use strict;
 
@@ -62,7 +62,7 @@ use LWP::UserAgent;
 use URI;
 use HTTP::Request;
 
-$VERSION = sprintf "%d.%02d", q$Revision: 1.11 $ =~ m/ (\d+) \. (\d+) /xg;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.12 $ =~ m/ (\d+) \. (\d+) /xg;
 
 my $User_agent = LWP::UserAgent->new();
 
@@ -264,11 +264,12 @@ members of the project can shepherd this module appropriately.
 
 brian d foy, C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2000-2006, brian d foy, All Rights Reserved.
+Copyright (c) 2000-2007 brian d foy.  All rights reserved.
 
-You may redistribute this under the same terms as Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
