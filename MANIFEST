@@ -1,10 +1,9 @@
-.lwpcookies
 Changes
+examples/README
 lib/Size.pm
 LICENSE
 Makefile.PL
 MANIFEST
-META.yml			Module meta-data (added by MakeMaker)
 README
 t/compile.t
 t/get_size.net.t
@@ -13,3 +12,4 @@ t/pod.t
 t/pod_coverage.t
 t/test.html
 t/test_manifest
+META.yml                                 Module meta-data (added by MakeMaker)

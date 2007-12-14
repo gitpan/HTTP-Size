@@ -1,4 +1,4 @@
-#$Id: get_size.net.t,v 1.2 2006/03/21 19:21:23 comdog Exp $
+#$Id: get_size.net.t 1744 2006-03-21 19:21:23Z comdog $
 
 package HTTP::Size;
 use strict;

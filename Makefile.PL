@@ -1,12 +1,16 @@
-# $Id: Makefile.PL,v 1.6 2007/01/10 04:25:33 comdog Exp $
+# $Id: Makefile.PL 2466 2007-12-14 20:52:46Z comdog $
 use ExtUtils::MakeMaker;
+
+require 5.006;
 
 eval "use Test::Manifest 1.14";
 
 WriteMakefile(
 	'NAME'	       => 'HTTP::Size',
+	'ABSTRACT'     => 'Get the byte size of an internet resource',
 	'VERSION_FROM' => 'lib/Size.pm',
-	'LICENSE'       => 'perl',
+	'LICENSE'      => 'perl',
+	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 
 	'PREREQ_PM'    => { 
 		'HTTP::Request'         => '0',
@@ -22,8 +26,6 @@ WriteMakefile(
 		'lib/Size.pm' => '$(INST_MAN3DIR)/HTTP::Size.3',
 		},
 
-	'LICENSE'      => 'perl',
-	
 	clean  => { FILES    => q|*.bak HTTP-Size-*| },
 
 	);
