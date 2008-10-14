@@ -1,9 +1,9 @@
-# $Id: Makefile.PL 2466 2007-12-14 20:52:46Z comdog $
+# $Id$
 use ExtUtils::MakeMaker;
 
 require 5.006;
 
-eval "use Test::Manifest 1.14";
+eval "use Test::Manifest 1.21";
 
 WriteMakefile(
 	'NAME'	       => 'HTTP::Size',
@@ -16,6 +16,9 @@ WriteMakefile(
 		'HTTP::Request'         => '0',
 		'URI'                   => '0',
 		'HTML::SimpleLinkExtor' => '0',
+		'LWP::Simple'           => '0',
+		'LWP::UserAgent'        => '0',
+		'URI::file'             => '0',
 		},
 
 	'PM'           => {

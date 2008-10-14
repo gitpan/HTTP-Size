@@ -1,16 +1,19 @@
 --- #YAML:1.0
 name:                HTTP-Size
-version:             1.13
+version:             1.13_01
 abstract:            Get the byte size of an internet resource
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.36
+author:              
+    - brian d foy <bdfoy@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
     HTML::SimpleLinkExtor:         0
     HTTP::Request:                 0
+    LWP::Simple:                   0
+    LWP::UserAgent:                0
     URI:                           0
+    URI::file:                     0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
-author:
-    - brian d foy <bdfoy@cpan.org>
