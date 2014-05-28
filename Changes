@@ -1,4 +1,10 @@
-# $Id$
+# Changes for HTTP::Size
+
+1.14 - Wed May 28 17:25:50 2014
+
+
+1.14 - Wed May 28 17:14:45 2014
+	* Promote to a release version
 
 1.13_01 - Tue Oct 14 09:59:21 2008
 	* Future-proofing the tests that check the size of certain
@@ -37,15 +43,15 @@
 	* No need to upgrade if you already have this installed
 
 0.91 - Fri Oct  8 15:48:59 2004
-* no need to upgrade - just added strictures
+	* no need to upgrade - just added strictures
 
 0.91 - Tue Sep  7 20:36:20 2004
-* cleaned up distro and added README
-* no need to upgrade
+	* cleaned up distro and added README
+	* no need to upgrade
 
 0.9 - Sun Jul  4 12:26:33 2004
-* get_sizes() now returns the hash reference in list context
-* get_sizes() should download javascript and style sheets, but doesn't
-* updated tests to use Test::More goodness
+	* get_sizes() now returns the hash reference in list context
+	* get_sizes() should download javascript and style sheets, but doesn't
+	* updated tests to use Test::More goodness
 
 0.04 - initial version
